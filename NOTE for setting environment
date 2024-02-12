@@ -2,7 +2,7 @@ STEPS FOR RUNNING ENVIRONMENT
 
 1. CLONE THE BRANCH
 2. open terminal > in terminal
-3. type: composer install
+3. type: composer install or composer update
 4. create db 
 5. php artisan migrate      or      php artisan migrate:fresh
 6. php artisan db:seed 
@@ -11,3 +11,11 @@ STEPS FOR RUNNING ENVIRONMENT
 9. check if it is all running smoothly
 php artisan storage:link
 10. done
+
+account: admin 
+drusha01
+Uwat09hanz@22
+
+accont: user
+drusha02
+Uwat09hanz@2
