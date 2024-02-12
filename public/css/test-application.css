@@ -1,0 +1,523 @@
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh; }
+
+.brand-wrapper {
+  margin-bottom: 19px; }
+  .brand-wrapper .logo {
+    height: 100px; }
+
+.login-card {
+  border: 0;
+  border-radius: 27.5px;
+  box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
+  overflow: hidden; }
+  .login-card-img {
+    border-radius: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; 
+      }
+  .login-card .card-body {
+    padding: 85px 60px 60px; }
+    @media (max-width: 422px) {
+      .login-card .card-body {
+        padding: 35px 24px; } }
+  .login-card-description {
+    font-size: 25px;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 23px; }
+  .login-card form {
+    max-width: 326px; }
+  .login-card .form-control {
+    border: 1px solid #d5dae2;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    min-height: 45px;
+    font-size: 13px;
+    line-height: 15;
+    font-weight: normal; }
+    .login-card .form-control::-webkit-input-placeholder {
+      color: #919aa3; }
+    .login-card .form-control::-moz-placeholder {
+      color: #919aa3; }
+    .login-card .form-control:-ms-input-placeholder {
+      color: #919aa3; }
+    .login-card .form-control::-ms-input-placeholder {
+      color: #919aa3; }
+    .login-card .form-control::placeholder {
+      color: #919aa3; }
+  .login-card .login-btn {
+    padding: 13px 20px 12px;
+    background-color: #a20202;;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 24px; }
+    .login-card .login-btn:hover {
+      border: 1px solid #000;
+      background-color: transparent;
+      color: #000; }
+  .login-card .forgot-password-link {
+    font-size: 14px;
+    color: #919aa3;
+    margin-bottom: 12px; }
+  .login-card-footer-text {
+    font-size: 16px;
+    color: #0d2366;
+    margin-bottom: 60px; }
+    @media (max-width: 767px) {
+      .login-card-footer-text {
+        margin-bottom: 24px; } }
+  .login-card-footer-nav a {
+    font-size: 14px;
+    color: #919aa3; }
+  
+.text-center{
+  color: rgb(0, 0, 0);
+}
+.top-bar {
+  background-color: #a20202; /* Top bar color */
+  color: white;
+  padding: 10px 0;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.top-bar-text{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.button-color {
+  background-color: #a20202; /* Button color same as top bar */
+  border-color: #a20202; /* Button border color same as top bar */
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  font-size: 18px;
+}
+.signup-form {
+  height: 850px; /* Adjust the height value as needed */
+}
+.form-control {
+  width: 300px; /* You can adjust the value as needed */
+}
+.side-by-side-form .form-group {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px; /* Adjust the spacing between fields */
+}
+
+
+/* Add your custom styles here */
+body {
+  background-color: #f8f9fa;
+}
+
+.container1 {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Background image */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('wmsu1.jpg');
+  background-size: cover;
+  filter: blur(10px); /* Apply blur effect */
+  z-index: -1; /* Place the background behind the content */
+}
+body {
+  background-color: #f8f9fa;
+}
+.container {
+  margin-top: 50px;
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+  margin-bottom: 1.5rem;
+} 
+body {
+  background-color: #f8f9fa;
+}
+.container2 {
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+  /* Center horizontally */
+  position: absolute;
+  left: 30%;
+  transform: translateX(-50%);
+
+  /* Center vertically */
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+label {
+  font-weight: bold;
+}
+
+
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+.container3 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Adjusted padding */
+  margin-top: 20px;
+  max-width: 850px; /* Adjusted max-width */
+  margin-left: auto;
+  margin-right: auto;
+}
+.eat-logo{
+  width: 120px;
+   height: auto;
+}
+@media (max-width: 768px) {
+  .container3 {
+      font-size: 20px;
+      padding: 5px;
+  }
+}
+.header-eat {
+  background-color: #a20202;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+.header-eat-text {
+    font-family: "Karla", sans-serif;
+font-size: 15px;
+  color: #fff;
+}
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Adjust the gap as needed */
+  margin-top: 10px;
+}
+
+.form1-group {
+  flex: 1;
+}
+
+.body-eat{
+  background-color: #d3d1d1;
+}
+.body-form {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 50px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.container4 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 14px; /* Adjusted padding */
+  margin-top: 20px;
+  max-width: 850px; /* Adjusted max-width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-container {
+  background-color: white;
+  border-radius: 10px;
+}
+.logo-form {
+  max-width: 100px; /* Adjust the size as needed */
+  margin-top: 20px;
+  padding-left: 5px;
+}
+.header-form {
+  background-color: #a20202;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.form-logo {
+  width: 120px;
+  height: auto;
+}
+
+.header-form-text {
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+    color: #fff;
+}
+
+
+.form2-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form2-header {
+  background-color: #a20202;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px; /* Adjust the height as needed */
+}
+
+.form2-header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form2-logo {
+  max-width: 100px; /* Adjust the size as needed */
+  vertical-align: middle;
+}
+
+
+.body-form2{
+  background-color: #d3d1d1;
+}
+.gsat-body{
+  background-color: #d3d1d1;
+}
+.gsat-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 50px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gsat-header {
+  background-color: #a20202;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.gsat-logo {
+  max-width: 100px; /* Adjust the size as needed */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.gsat-header-text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; /* Adjust the spacing as needed */
+}
+.body-lsat{
+  background-color: #d3d1d1;
+}
+.lsat-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lsat-header {
+  background-color: #a20202;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.lsat-logo {
+  max-width: 100px; /* Adjust the size as needed */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.lsat-header-text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; /* Adjust the spacing as needed */
+}
+.body-nat {
+  background-color: #d3d1d1;
+}
+
+.nat-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 50px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nat-header {
+  background-color: #a20202;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.nat-logo {
+  max-width: 100px; /* Adjust the size as needed */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nat-header-text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; /* Adjust the spacing as needed */
+}
+  .submit-button {
+    background-color: #a20202;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .custom-class {
+   font-size: 17px;
+  }
+  .family-background{
+    display: inline-block;
+    flex-direction: row;
+    margin-bottom: 5px;
+  }
+  .father-information{
+    border: 2px solid gray;
+    width: 380px;
+    display: inline-block;
+  }
+  .mother-information{
+    display: inline-block;
+width: 380px;
+border: 2px solid gray;
+  }
+  .mother{
+    margin-left: 10px;
+  }
+  .father{
+    margin-left: 10px;
+  }
+  .guardian{
+    margin-top: 10px;
+    width: 789px;
+    border: 2px solid gray;
+  }
+.school-information{
+  border: 2px solid gray;
+  height: 100px;
+  width: 800px;
+
+}
+.school-information1{
+  border: 2px solid gray;
+  height: 180px;
+  width: 800px;
+
+}
+.school-information2{
+  border: 2px solid gray;
+  height: 250px;
+  width: 800px;
+
+}
+.school-information3{
+  border: 2px solid gray;
+  height: 440px;
+  width: 800px;
+
+}
+.school-information4{
+  border: 2px solid gray;
+  height: 250px;
+  width: 800px;
+
+}
+  .guardian-grad, .guardian-shift, .guardian-trans, .guardian-eat, .guardian-gsat, .guardian-lsat, .guardian-nat{
+    margin-top: 10px;
+    width: 765px;
+    border: 2px solid gray;
+  }
+  
+  

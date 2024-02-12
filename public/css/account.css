@@ -1,0 +1,246 @@
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #121212; 
+  min-height: 100vh; }
+.container{
+  max-width: 850px; /* Adjust the width as needed */
+      margin: auto;
+      padding: 15px;
+}
+.brand-wrapper {
+  margin-bottom: 19px; }
+  .brand-wrapper .logo {
+    height: 100px; }
+
+.login-card {
+  border: 0;
+  border-radius: 27.5px;
+  box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
+  overflow: hidden; }
+  .login-card-img {
+    border-radius: 0;
+    position: absolute;
+    width: 115%;
+    height: 100%;
+       object-fit: cover; 
+      }
+  .login-card .card-body {
+    padding: 35px 47px 37px 90px; }
+    @media (max-width: 422px) {
+      .login-card .card-body {
+        padding: 35px 24px; } }
+  .login-card-description {
+    font-size: 25px;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 23px; }
+  .login-card form {
+    max-width: 326px; }
+  .login-card .form-control {
+    border: 1px solid #d5dae2;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    min-height: 45px;
+    font-size: 13px;
+    line-height: 15;
+    font-weight: normal; }
+    .login-card .form-control::-webkit-input-placeholder {
+      color: #919aa3; }
+    .login-card .form-control::-moz-placeholder {
+      color: #919aa3; }
+    .login-card .form-control:-ms-input-placeholder {
+      color: #919aa3; }
+    .login-card .form-control::-ms-input-placeholder {
+      color: #919aa3; }
+    .login-card .form-control::placeholder {
+      color: #919aa3; }
+  .login-card .login-btn {
+    padding: 13px 20px 12px;
+    background-color: #a20202;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 24px; }
+    .login-card .login-btn:hover {
+      border: 1px solid #000;
+      background-color: transparent;
+      color: #000; }
+  .login-card .forgot-password-link {
+    font-size: 14px;
+    color: #919aa3;
+    margin-bottom: 12px; }
+  .login-card-footer-text {
+    font-size: 16px;
+    color: #0d2366;
+    margin-bottom: 60px; }
+    @media (max-width: 767px) {
+      .login-card-footer-text {
+        margin-bottom: 24px; } }
+  .login-card-footer-nav a {
+    font-size: 14px;
+    color: #919aa3; }
+  
+.text-center{
+  color: red;
+}
+.top-bar {
+  background-color: #a20202; /* Top bar color */
+  color: white;
+  padding: 10px 0;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.top-bar-text{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.button-color {
+  background-color: #a20202; /* Button color same as top bar */
+  border-color: #a20202; /* Button border color same as top bar */
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  font-size: 18px;
+width: 10px;
+}
+.signup-form {
+  height: 850px; /* Adjust the height value as needed */
+}
+.card-header {
+  background-color: #a20202;
+  color: #fff;
+}
+.signup-body{
+  background-color: #d3d1d1;
+}
+.text-signup{
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-left: 19px;
+  color: #a20202;
+}
+.alert-danger {
+  color: #721c24;
+  background-color: #ffffff; 
+   border-color: #ffffff; 
+}
+
+/* Add these styles to your existing CSS or in a separate <style> tag */
+.form-group {
+  margin-bottom: 20px;
+}
+
+#verificationCode {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#verificationCode:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-block {
+  width: 100%;
+  background-color:#a20202;
+  color: white;
+  font-size: 17px;
+}
+
+
+.btn-block:hover {
+  background-color: #c71b1b;
+}
+
+.button-color:hover {
+  background-color: #b23b3b;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #verificationCode {
+    margin-bottom: 10px;
+  }
+}
+.btn-register {
+  background-color: #a20202;
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  padding: 15px 20px 15px 20px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+
+.btn-register:hover {
+  background-color: transparent;
+  color: black;
+  border: #000 solid 1px;
+  transform: scale(1.05); 
+}
+
+
+.btn-register:active {
+  opacity: 0.75;
+}
+
+.login-card-footer-text {
+  margin: 15px 0; 
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+background-image: linear-gradient(-60deg, #ad151557 50%, #fff0 50%);
+    --dot-bg: transparent;
+    --dot-color: linear-gradient(-60deg, #ad151557 50%, #efefef 50%, #7806068f 50%);
+    --dot-size: 1px;
+    --dot-space: 20px;
+    background: linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space), linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space), var(--dot-color);
+    background-blend-mode: multiply;
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+.bg1 {
+  animation:slide 3s ease-in-out infinite reverse;
+background-image: linear-gradient(120deg, #ad151557 50%, #efefef 50%, #78060600 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}

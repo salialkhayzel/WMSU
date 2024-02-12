@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+}
+.permit {
+    position: absolute;
+    text-align: center;
+    padding: 20px;  
+    background-color: #f1f1e5;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-left: 90px;
+    height: 80vh; 
+}
+
+.name{
+    display:flex;
+    text-indent:200px;
+    margin-top: 15px;
+    border-top: 1px solid #ff0000;
+}
+.school{
+    display: flex;
+    border-bottom: 1px solid #ff0000;
+    
+  
+}
+.upper-text{
+    display: flex;
+    margin-left: 50px;
+}
+.bottom-content{
+    display: flex;
+    margin-bottom: -100px;
+}
+.middle-content{
+    display: flex; 
+    flex-direction: column;
+
+    margin-left: 15px;
+}
+.middle{
+    display: flex; 
+    align-items: center;
+}
+.middle-text{
+    display: flex;
+    
+}
+.right-content{
+    display: flex;
+   width: 320px;
+   height: 250px;
+     border:2px solid red ;
+     justify-content: center;
+     align-items: center;
+     margin-left: 15px;
+}
+.upper-content{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.upper-left-text{
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+.left-content{
+    border-top: 1px solid #ff0000;
+    margin-bottom: 0;
+}
+.middle-bottom-text{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.imp{
+    font-weight: bold;
+    font-size: 20px;
+}
+.imps{
+    display: inline-block;
+}
+.side-bar {
+    position: absolute;
+    bottom: 100px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    left: 30px;
+    font-weight: bold;
+}
+
+.qr-code{
+    display: flex;
+    width: 320px;
+    height: 150px;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+
+.bottom-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px; 
+
+}
+
+.image-container-right {
+    
+    margin-right:-0px; 
+}
+.image-container-left {
+    margin-left: -30px;
+}
+
+.signature {
+    margin-left: -5px;
+    font-weight: bold;
+  
+    border-top: 1px solid #ff0000;
+    margin-bottom: 0;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Application</title>
+    <link rel="stylesheet" href="{{ asset('css/User.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+@include('student-components.student-navigation')
+<!-- NIRMOVE KO YUNG COMPONENT KASI NASISIRA YUNG FORM/IDK WHAT TO-->
+
+@include('student-components.student-navtabs')
+
+<!-- Application Tab Content -->
+<div role="tabpanel" class="tab-pane" id="application">
+    <section class="test-application-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="test-section">
+                        <h2>Application Page</h2>
+                        <p>Select the test you would like to take from the options below:</p>
+                        <ul class="test-list">
+                            <li class="custom-dropdown" id="cetDropdownContainer">
+                                <span class="test-list-item">CET Form Applications<span class="dropdown-indicator">&#9662;</span></span>
+                                <ul class="dropdown-content" id="cetDropdown">
+                                    <li><a href="#" data-test-route="{{ Route('test-application.Cet') }}" class="test-link">CET SHS Undergraduate Form</a></li>
+                                    <li><a href="#" data-test-route="{{ Route('test-application.Cetgraduate') }}" class="test-link">CET SHS Graduated Form</a></li>
+                                    <li><a href="#" data-test-route="{{ Route('test-application.Cetshiftee') }}" class="test-link">CET Shiftee</a></li>
+                                    <li><a href="#" data-test-route="{{ Route('test-application.Cettransferee') }}" class="test-link">CET Transferee</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="test-list-item" href="{{ url('test-application.Nat') }}">
+                                    NAT Application
+                                    <button class="btn btn-primary apply-button">Unavailabe</button>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="test-list-item" href="{{ url('test-application.Eat') }}">
+                                    EAT Application
+                                    <button class="btn btn-primary apply-button">Unavailabe</button>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="test-list-item" href="{{ url('test-application.Gsat') }}">
+                                    GSAT Application
+                                    <button class="btn btn-primary apply-button">Unavailabe</button>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="test-list-item" href="{{ url('test-application.Lsat') }}">
+                                    LSAT Application
+                                    <button class="btn btn-primary apply-button">Unavailabe</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="testContent" class="test-content">
+                        <!-- The content for CET SHS Undergraduate Form will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Include Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    const testLinks = document.querySelectorAll('.test-link');
+    const testContent = document.getElementById('testContent');
+
+    testLinks.forEach((link) => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const testRoute = link.getAttribute('data-test-route');
+            loadTestContent(testRoute);
+        });
+    });
+
+    function loadTestContent(testRoute) {
+        // Use AJAX to load the content dynamically and replace the placeholder
+        const xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                testContent.innerHTML = xhr.responseText;
+            }
+        };
+        xhr.open('GET', testRoute, true);
+        xhr.send();
+    }
+</script>
+
+</body>
+</html>

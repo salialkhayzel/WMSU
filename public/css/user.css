@@ -1,0 +1,406 @@
+body{
+     min-width: 576px;
+}
+/* NAVBAR CSS */
+.bg-crimson {
+    background-color: #990000;
+    position: fixed;
+    
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: white;
+}
+
+a.nav-link{
+    font-size: 13px;
+}
+.company-name {
+    color: white;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* NAVBAR CSS */
+
+/* student profile CSS */
+.profile-section {
+    padding: 30px;
+}
+
+
+
+
+
+.profile- {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.Applicant-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Applicant-info {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.profile-image-label {
+    cursor: pointer;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.profile-image i {
+    font-size: 5em;
+    color: #555;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+.text-muted {
+    color: #777;
+}
+
+.applicant-details {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.details-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.details-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    border: none;
+    padding: 5px 0;
+}
+
+.list-group-item strong {
+    font-weight: bold;
+}
+
+/* Style for modal pop-ups */
+.modal-content {
+    padding: 20px;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-footer {
+    justify-content: flex-end;
+    border: none;
+}
+
+.modal-title {
+    font-size: 20px;
+}
+
+/* Style for the backdrop of the modal */
+.modal-backdrop {
+    opacity: 0.5 !important;
+}
+
+/* Style for modal close button */
+.close {
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 1;
+}
+
+
+
+/* studenr profile CSS */
+
+/* Style for the navigation tabs */
+.nav.nav-tabs {
+    background-color: transparent; /* Tab background color */
+    padding: 10px;
+}
+
+.nav.nav-tabs li {
+    margin-right:2px; /* Add spacing between tab items */
+}
+
+/* Style for inactive tab links */
+.nav.nav-tabs li a {
+    color: black; /* Tab text color */
+    background-color: transparent; /* Transparent background */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: 500; /* Tab text font-weight */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* Style for active tab link */
+.nav.nav-tabs li.active a {
+    background-color: #990000; /* Active tab background color */
+    color: wheat;
+}
+
+
+/* Hover effect for tab links */
+.nav.nav-tabs li a:hover {
+    text-decoration: none; 
+    background-color: #990000;
+    color: white; 
+}
+/* Style for the navigation tabs */
+
+/* Styling for Application Tab Content */
+
+
+
+
+
+/* Status Table Styles */
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+.pagination button {
+    margin: 5px;
+}
+.status-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.status-table th,
+.status-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.status-table th {
+    background-color: #f2f2f2;
+}
+
+.status-accepted {
+    color: green;
+    font-weight: bold;
+}
+
+.status-review {
+    color: orange;
+    font-weight: bold;
+}
+
+.status-processing {
+    color: blue;
+    font-weight: bold;
+}
+
+.status-denied {
+    color: red;
+    font-weight: bold;
+}
+
+.view-button {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.view-button.accepted {
+    color: green;
+}
+
+/* Exam History Table Styles */
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.history-table th,
+.history-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.history-table th {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+/* Results Section */
+.results-section {
+    background-color: #f9f9f9;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.result-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.result-link {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.result-pdf-link {
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.result-pdf-link:hover {
+    text-decoration: underline;
+}
+/* Results Section */
+
+
+/* Schedule Section */
+.schedule-section {
+    background-color: #f9f9f9;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.exam-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.exam-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.exam-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.exam-date {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.exam-description {
+    font-size: 16px;
+    color: #333;
+}
+/* Schedule Section */
+
+/* payment section css */
+.payment-section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.payment-details p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.payment-details form {
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* payment section css */
+
